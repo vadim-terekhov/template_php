@@ -1,7 +1,8 @@
 <?php
 class FirstClass{
-	public function __construct(){
-		echo "FirstClass";
+	public $str;
+	public function __construct($str = ''){
+		$this->str = $str;
 	}
 }
 ?>
